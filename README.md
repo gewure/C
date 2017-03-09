@@ -4,6 +4,8 @@ KISS C application examples
 Basically some popular tiny challenges that people struggle with when starting to learn C.
 Can be described as 'didactic examples'. 
 
+# matrix.c
+  example application for an simple Matrix-struct and a function that evaluates if a given Matrix is symetric
 # pyramid.c
   asks for number of rows, prints all odd numbers in a pyramid
   
