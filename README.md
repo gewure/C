@@ -21,3 +21,6 @@ Can be described as 'didactic examples'.
 # retCharPtr.c
   This example shows why in C one can't simply return an dynamicaly long string from a function
   it explains call-by-reference, dynamical allocation with malloc, and defunct returning utilizing the popular local-scope mistake
+
+#intToBin.c
+  Simple reading of programm argument, parsing it from char* to int using itoa(..), then converting it to a binary-string with a  function by call-by-reference. 
