@@ -24,3 +24,6 @@ Can be described as 'didactic examples'.
 
 # intToBin.c
   Simple reading of programm argument, parsing it from char ptr to int using itoa(..), then converting it to a binary-string with a  function by call-by-reference. 
+  
+# arrSumPtrArithmetic.c
+  Simple example showing how to sum up a array 1) using 'normal' array indexing and 2) using pointer arithmetic
