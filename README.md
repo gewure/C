@@ -33,3 +33,6 @@ Can be described as 'didactic examples'.
 
 # callByRefSwap.c
   Simple example showing how to swap two variables using call-by-reference
+
+# heapMemVsStackMem.c
+  Example showing what happens if you incorrectly malloc memory. After a function exits, the Stack is GONE, and so are values allocated in it.
