@@ -30,3 +30,6 @@ Can be described as 'didactic examples'.
   
 # callByReference.c
   Simple example showing call-by-reference
+
+# callByRefSwap.c
+  Simple example showing how to swap two variables using call-by-reference
