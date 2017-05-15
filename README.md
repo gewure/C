@@ -27,3 +27,6 @@ Can be described as 'didactic examples'.
   
 # arrSumPtrArithmetic.c
   Simple example showing how to sum up a array 1) using 'normal' array indexing and 2) using pointer arithmetic
+  
+# callByReference.c
+  Simple example showing call-by-reference
