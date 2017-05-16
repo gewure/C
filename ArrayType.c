@@ -21,6 +21,7 @@ void init_Array(int size, Array *arr) {
 /* destroy function for Array type */
 void destroy_Array(Array *arr) {
     free(arr->arr); // only the malloc'd part of Array must be freed
+    arr = NULL;  //defensive programming style
 }
 
 /* access function for Array type */
