@@ -43,3 +43,9 @@ Can be described as 'didactic examples'.
 # structOffset
   Shows with pointer arithmetic how the byte-offsets of a struct work in C
   
+# ArrayType.c
+  how to define and use a typedef "Array" which knows its size and does bounds-checking when accessing it.
+  It is allocated on the heap and freed after usage. Good example of call-by-reference,
+  Heap-memory allocation and how to use types in a effective manner. 
+
+  
