@@ -26,10 +26,13 @@ void destroy_Array(Array *arr) {
 
 /* access function for Array type */
 int* access_Array(Array* arr, int index) {
-    if(index >= arr->size) {
+    if(index >= arr->size || index < 0) {  //check if index is in bounds (unsigned and < size)
         printf("%p[%d] out of bounds \n", arr, index);
         return 0;
-    } else {
+    } else { // everything ok
+        // return pointer to element of array ( this way we can manipulate the array)
+        // if it was just a int, not a int* we would have only a copy of the element -
+        // thus we would not be able to set/manipulate this element
         return &(arr->arr[index]);
     }
       
