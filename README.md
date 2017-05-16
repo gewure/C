@@ -47,5 +47,9 @@ Can be described as 'didactic examples'.
   how to define and use a typedef "Array" which knows its size and does bounds-checking when accessing it.
   It is allocated on the heap and freed after usage. Good example of call-by-reference,
   Heap-memory allocation and how to use types in a effective manner. 
+  
+# shlemielThePainter.c
+  this example was motivated by this ancient(2001) blogpost by Joel Spolsky
+  https://www.joelonsoftware.com/2001/12/11/back-to-basics/
 
   
