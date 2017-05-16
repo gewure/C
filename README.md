@@ -39,3 +39,7 @@ Can be described as 'didactic examples'.
   
 # linkedList.c
   A simple linked list example
+  
+# structOffset
+  Shows with pointer arithmetic how the byte-offsets of a struct work in C
+  
