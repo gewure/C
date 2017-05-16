@@ -20,7 +20,7 @@ void init_Array(int size, Array *arr) {
 
 /* destroy function for Array type */
 void destroy_Array(Array *arr) {
-    free(arr->arr);
+    free(arr->arr); // only the malloc'd part of Array must be freed
 }
 
 /* access function for Array type */
