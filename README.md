@@ -36,3 +36,6 @@ Can be described as 'didactic examples'.
 
 # heapMemVsStackMem.c
   Example showing what happens if you incorrectly malloc memory. After a function exits, the Stack is GONE, and so are values allocated in it.
+  
+# linkedList.c
+  A simple linked list example
