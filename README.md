@@ -51,5 +51,8 @@ Can be described as 'didactic examples'.
 # shlemielThePainter.c
   this example was motivated by this ancient(2001) blogpost by Joel Spolsky
   https://www.joelonsoftware.com/2001/12/11/back-to-basics/
+  
+# bitField.c
+  What and how to do something using bitfields
 
   
