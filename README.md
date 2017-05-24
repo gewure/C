@@ -4,6 +4,17 @@ KISS C application examples
 Basically some popular tiny challenges that people struggle with when starting to learn C.
 Can be described as 'didactic examples'. 
 
+# linkedList.c
+  Example-Implementation of a singly linkedList in c existing on the heap. 
+  supported functions: 
+        LinkedList* init_list();
+        void insert_end(LinkedList *list, int key, char string[]);
+        void insert_beginning(LinkedList *list, int key, char string[]);
+        int remove_end(LinkedList *list);
+        int remove_beginning(LinkedList *list);
+        int print_list(LinkedList *list);
+        void free_list(LinkedList *list);
+        char * get_string(LinkedList *list, int key);
 # matrix.c
   example application for an simple Matrix-struct and a function that evaluates if a given Matrix is symetric
 # pyramid.c
