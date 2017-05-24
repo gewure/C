@@ -242,6 +242,10 @@ char * get_string(LinkedList *list, int key) {
 	printf("----------------------\n");
 
 	Node *startN = list->first;  //get first
+	
+	/* if only one node.. */
+	if(list->size == 1)
+		return startN->string;
 
 	/* iterate through list and find Node where node->key == key */
 	while (startN->next != NULL) {
