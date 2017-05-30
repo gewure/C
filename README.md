@@ -4,6 +4,10 @@ KISS C application examples
 Basically some popular tiny challenges that people struggle with when starting to learn C.
 Can be described as 'didactic examples'. 
 
+# evaluationOrder.c
+  The order how parameters are evaluated is implementation-specific.
+  This example(s) show(s=, how the evaluation-Order is not always trivial/what you expect
+
 # ArraySerialisationPtrArithmetics.c
   Short example showing how to get all members of a 2d (or Nd..) array with ptr-arithmetics rather than by looping
   
