@@ -4,6 +4,10 @@ KISS C application examples
 Basically some popular tiny challenges that people struggle with when starting to learn C.
 Can be described as 'didactic examples'. 
 
+# functionPtr.c
+  Implements a map-function that calls functions via function-pointers on an array,
+  explains how function-pointers are used and what they are good for
+  
 # recursiveMultiply.c
   How to implement multiplication of two numbers using recursion
 
