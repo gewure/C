@@ -56,7 +56,7 @@ Can be described as 'didactic examples'.
   Example showing what happens if you incorrectly malloc memory. After a function exits, the Stack is GONE, and so are values allocated in it.
   
 # linkedList.c
-  A simple linked list example
+  A very simple linked list example
   
 # structOffset.c
   Shows with pointer arithmetic how the byte-offsets of a struct work in C
