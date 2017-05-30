@@ -3,6 +3,8 @@ KISS C application examples
 
 Basically some popular tiny challenges that people struggle with when starting to learn C.
 Can be described as 'didactic examples'. 
+# callbackFuncPtr.c
+  Shows how to utilize function-pointers to get callback-functionality in C
 
 # functionPtr.c
   Implements a map-function that calls functions via function-pointers on an array,
