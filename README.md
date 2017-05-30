@@ -4,6 +4,9 @@ KISS C application examples
 Basically some popular tiny challenges that people struggle with when starting to learn C.
 Can be described as 'didactic examples'. 
 
+# recursiveMultiply.c
+  How to implement multiplication of two numbers using recursion
+
 # linkedList.c
   Example-Implementation of a singly linkedList in c existing on the heap. 
   supported functions: 
