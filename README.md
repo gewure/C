@@ -3,6 +3,11 @@ KISS C application examples
 
 Basically some popular tiny challenges that people struggle with when starting to learn C.
 Can be described as 'didactic examples'. 
+
+# ptrToPtrFree.c
+  Example shows how to free (and securely free) a List-struct by freeing its pointer,
+  which is handed over by call-by-reference,  thus a pointer to a pointer. 
+
 # callbackFuncPtr.c
   Shows how to utilize function-pointers to get callback-functionality in C
 
