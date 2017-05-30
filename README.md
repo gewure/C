@@ -4,6 +4,9 @@ KISS C application examples
 Basically some popular tiny challenges that people struggle with when starting to learn C.
 Can be described as 'didactic examples'. 
 
+# ArraySerialisationPtrArithmetics.c
+  Short example showing how to get all members of a 2d (or Nd..) array with ptr-arithmetics rather than by looping
+  
 # ptrToPtrFree.c
   Example shows how to free (and securely free) a List-struct by freeing its pointer,
   which is handed over by call-by-reference,  thus a pointer to a pointer. 
