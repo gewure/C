@@ -15,6 +15,7 @@ The next day Shlemiel paints 30 yards of the road.
 
  - Copyright belonging to Joel Spolsky (thought he probably is happy about having this shared)
  
+ TRY IT ONLINE: https://onlinegdb.com/S11aCBAuI
  
 */
 
