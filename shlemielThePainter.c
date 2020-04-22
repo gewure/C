@@ -11,4 +11,42 @@ The next day Shlemiel paints 30 yards of the road. “Only 30!” shouts his bos
  - Copyright belonging to Joel Spolsky (thought he probably is happy about having this shared)
 */
 
-//TODO
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/time.h>
+
+void paint(char *str);
+long long timeInMilliseconds(void);
+
+int main(int argc, char* args[]) {
+
+        char * street;
+        int days;
+
+        printf("how long shall Shlemiel paint? ");
+        scanf("%d", &days);
+
+        street = malloc(sizeof(char)*30*days);
+        for(int i= 0; i<days; i++) {
+                paint(street);
+        }
+        free(street);
+}
+
+void paint(char *str){
+        long long now = timeInMilliseconds();
+        strcat(str, "########### ###########");
+        printf("%s",str);
+        printf("\nit took Shlemiel now %d nanos to paint, Enter to continue?\n", timeInMilliseconds()-now);
+        char ch;
+        scanf("%c",&ch); //get something to progress to next
+}
+
+
+long long timeInMilliseconds(void) {
+    struct timeval tv;
+
+    gettimeofday(&tv,NULL);
+    return (((long long)tv.tv_sec))+(tv.tv_usec);
+}
