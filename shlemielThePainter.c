@@ -24,37 +24,46 @@ The next day Shlemiel paints 30 yards of the road.
 #include <string.h>
 #include <sys/time.h>
 
-void paint(char *str);
-long long timeInNanos(void);
+void paint (char *str);
+long long timeInNanos (void);
 
-int main(int argc, char* args[]) {
+int
+main (int argc, char *args[])
+{
 
-        char * street;
-        int days;
+  char *street;
+  int days;
 
-        printf("how long shall Shlemiel paint? ");
-        scanf("%d", &days);
+  printf ("how long shall Shlemiel paint? ");
+  scanf ("%d", &days);
 
-        street = malloc(sizeof(char)*30*days);
-        for(int i= 0; i<days; i++) {
-                paint(street);
-        }
-        free(street);
+  street = malloc (sizeof (char) * 2 * days);
+  for (int i = 0; i < days; i++)
+    {
+      paint (street);
+      printf ("\nday %d ", i);
+    }
+  free (street);
 }
 
-void paint(char *str){
-        long long now = timeInNanos();
-        strcat(str, "########### ###########");
-        printf("%s",str);
-        printf("\nit took Shlemiel now %d nanos to paint, Enter to continue?\n", timeInNanos()-now);
-        char ch;
-        scanf("%c",&ch); //get something to progress to next
+void
+paint (char *street)
+{
+  long long now = timeInNanos ();
+  strcat (street, "#");
+  printf ("it took Shlemiel %d nanos to paint, Enter to continue?\n",
+	  timeInNanos () - now);
+  printf ("%s", street);
+  char ch;
+  scanf ("%c", &ch);		//get something to progress to next
 }
 
 
-long long timeInNanos(void) {
-    struct timeval tv;
+long long
+timeInNanos (void)
+{
+  struct timeval tv;
 
-    gettimeofday(&tv,NULL);
-    return (((long long)tv.tv_sec))+(tv.tv_usec);
+  gettimeofday (&tv, NULL);
+  return (((long long) tv.tv_sec)) + (tv.tv_usec);
 }
