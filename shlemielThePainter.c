@@ -17,7 +17,7 @@ The next day Shlemiel paints 30 yards of the road. “Only 30!” shouts his bos
 #include <sys/time.h>
 
 void paint(char *str);
-long long timeInMilliseconds(void);
+long long timeInNanos(void);
 
 int main(int argc, char* args[]) {
 
@@ -35,16 +35,16 @@ int main(int argc, char* args[]) {
 }
 
 void paint(char *str){
-        long long now = timeInMilliseconds();
+        long long now = timeInNanos();
         strcat(str, "########### ###########");
         printf("%s",str);
-        printf("\nit took Shlemiel now %d nanos to paint, Enter to continue?\n", timeInMilliseconds()-now);
+        printf("\nit took Shlemiel now %d nanos to paint, Enter to continue?\n", timeInNanos()-now);
         char ch;
         scanf("%c",&ch); //get something to progress to next
 }
 
 
-long long timeInMilliseconds(void) {
+long long timeInNanos(void) {
     struct timeval tv;
 
     gettimeofday(&tv,NULL);
