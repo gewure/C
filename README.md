@@ -1,5 +1,5 @@
 # C
-KISS C application examples
+Simple C examples
 
 Basically some popular tiny challenges that people struggle with when starting to learn C.
 Can be described as 'didactic examples'. 
